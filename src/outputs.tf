@@ -1,4 +1,4 @@
-output "mock" {
-  description = "Mock output example for the Cloud Posse Terraform component template"
-  value       = local.enabled ? "hello ${basename(abspath(path.module))}" : ""
+output "auth0_connection_id" {
+  value       = auth0_connection.this[0].id
+  description = "The Auth0 Connection ID"
 }
