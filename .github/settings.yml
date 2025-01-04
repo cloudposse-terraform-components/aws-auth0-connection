@@ -5,5 +5,3 @@ repository:
   description: Auth 0 Connection component
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
-
-
