@@ -88,14 +88,14 @@ components:
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.0 |
 | <a name="requirement_auth0"></a> [auth0](#requirement\_auth0) | >= 1.0.0 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 4.9.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 4.9.0, < 6.0.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
 | <a name="provider_auth0"></a> [auth0](#provider\_auth0) | >= 1.0.0 |
-| <a name="provider_aws.auth0_provider"></a> [aws.auth0\_provider](#provider\_aws.auth0\_provider) | >= 4.9.0 |
+| <a name="provider_aws.auth0_provider"></a> [aws.auth0\_provider](#provider\_aws.auth0\_provider) | >= 4.9.0, < 6.0.0 |
 
 ## Modules
 
