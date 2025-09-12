@@ -11,7 +11,6 @@ An Auth0 connection is a bridge between Auth0 and an identity provider (IdP) tha
 authenticate users. Auth0 supports many types of connections, including social identity providers such as Google,
 Facebook, and Twitter, enterprise identity providers such as Microsoft Azure AD, and passwordless authentication methods
 such as email and SMS.
-
 ## Usage
 
 Before deploying this component, you need to deploy the `auth0/tenant` component. This components with authenticate with
@@ -58,7 +57,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -143,14 +145,21 @@ components:
 | Name | Description |
 |------|-------------|
 | <a name="output_auth0_connection_id"></a> [auth0\_connection\_id](#output\_auth0\_connection\_id) | The Auth0 Connection ID |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/auth0/connection) -
-  Cloud Posse's upstream component
-- [Auth0 Terraform Provider](https://registry.terraform.io/providers/auth0/auth0/latest/)
-- [Auth0 Documentation](https://auth0.com/docs/)
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+- [Auth0 Terraform Provider](https://registry.terraform.io/providers/auth0/auth0/latest/) - 
+
+- [Auth0 Documentation](https://auth0.com/docs/) - 
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-auth0-connection&utm_content=)
+
