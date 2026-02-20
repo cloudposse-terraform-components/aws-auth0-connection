@@ -1,6 +1,6 @@
 module "auth0_apps" {
   source  = "cloudposse/stack-config/yaml//modules/remote-state"
-  version = "1.8.0"
+  version = "2.0.0"
 
   for_each = local.enabled ? { for app in var.auth0_app_connections : "${app.tenant}-${app.environment}-${app.stage}-${app.component}" => app } : {}
 
